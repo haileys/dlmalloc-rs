@@ -85,10 +85,15 @@ mod sys;
 #[path = "xous.rs"]
 mod sys;
 
+#[cfg(target_os = "win9x")]
+#[path = "win9x.rs"]
+mod sys;
+
 #[cfg(not(any(
     target_os = "linux",
     target_os = "macos",
     target_os = "xous",
+    target_os = "win9x",
     target_family = "wasm"
 )))]
 #[path = "dummy.rs"]
