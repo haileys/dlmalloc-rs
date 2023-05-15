@@ -14,7 +14,7 @@
   "env": "msvc",
   "exe-suffix": ".exe",
   "is-like-msvc": true,
-  "is-like-windows": false,
+  "is-like-windows": true,
   "linker-flavor": "lld-link",
   "linker-is-gnu": false,
   "lld-flavor": "link",
