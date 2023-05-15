@@ -20,7 +20,7 @@ doctest = false
 [target.'cfg(all(unix, not(target_arch = "wasm32")))'.dependencies]
 libc = { version = "0.2", default-features = false }
 
-[target.'cfg(target_arch = "win9x")'.dependencies]
+[target.'cfg(target_os = "win9x")'.dependencies]
 win9x-sync = { git = "https://github.com/haileys/win9x-sync-rs" }
 
 [dependencies]
