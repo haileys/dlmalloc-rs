@@ -43,4 +43,4 @@ global = []
 # Enable very expensive debug checks in this crate
 debug = []
 
-rustc-dep-of-std = ['core', 'compiler_builtins/rustc-dep-of-std']
+rustc-dep-of-std = ['core', 'compiler_builtins/rustc-dep-of-std', 'win9x-sync/rustc-dep-of-std']
