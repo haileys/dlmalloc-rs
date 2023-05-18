@@ -1,7 +1,7 @@
 use core::ptr;
 use core::convert::TryFrom;
 use core::ffi::c_void;
-use Allocator;
+use crate::Allocator;
 
 use win9x_sync::critical_section::CriticalSection;
 

@@ -7,7 +7,7 @@ use core::cmp;
 use core::mem;
 use core::ptr;
 
-use Allocator;
+use crate::Allocator;
 
 pub struct Dlmalloc<A> {
     smallmap: u32,

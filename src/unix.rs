@@ -1,7 +1,7 @@
 extern crate libc;
 
 use core::ptr;
-use Allocator;
+use crate::Allocator;
 
 /// System setting for Linux
 pub struct System {
