@@ -22,7 +22,7 @@ doctest = false
 libc = { version = "0.2", default-features = false }
 
 [target.'cfg(target_os = "win9x")'.dependencies]
-win9x-sync = "0.1"
+win9x-sync = "^0.2"
 
 [dependencies]
 # For more information on these dependencies see rust-lang/rust's
